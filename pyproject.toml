@@ -1,11 +1,14 @@
 [project]
-name = "blank-app-template"
+name = "body-align"
 version = "0.1.0"
-description = "A simple Streamlit app template."
+description = "瑜伽练习前后对比照片制作工具"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.10"
 dependencies = [
     "streamlit>=1.61.1",
+    "opencv-python-headless>=4.8.0",
+    "numpy>=1.24.0",
+    "Pillow>=10.0.0",
 ]
 
 [tool.uv]
